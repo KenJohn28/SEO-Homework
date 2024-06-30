@@ -68,8 +68,7 @@ p .about-description {
 }
 
 .about-paragraphs {
-  display: flex;
-  margin: 30px 0;
+  margin: 30px auto;
 }
 
 .about-paragraphs p {
