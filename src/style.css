@@ -5,7 +5,7 @@
 }
 
 body {
-  margin-top: 100px;
+  margin: 100px 0px;
 }
 
 h1,
@@ -104,4 +104,23 @@ p .primary-info {
   border: 1px solid var(--primary-color);
   background-color: white;
   color: var(--primary-color);
+}
+
+@media (max-width: 576px) {
+  h1 {
+    line-height: 1.5;
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+  }
+  .project-link {
+    display: block;
+    text-align: center;
+    margin: 0 20px;
+  }
 }
